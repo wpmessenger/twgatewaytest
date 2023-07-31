@@ -1,0 +1,54 @@
+#forwarding_numbers_length, #twilio_numbers_length, #forwarding_numbers_filter, #twilio_numbers_filter {
+    display: inline-block;
+    margin: 10px 0;
+}
+
+#twilio_numbers_filter, #forwarding_numbers_filter {
+    float: right;
+}
+
+#numbers-tab>div.flex.flex-col.items-start.justify-evenly.gap-2.px-8.mt-2.pt-4.border-t-2.border-black>div:nth-child(3),
+#numbers-tab>div:nth-child(1)>div:nth-child(3) {
+    width: 100%;
+}
+
+#numbers-tab>div.flex.flex-col.items-start.justify-evenly.gap-2.px-8.mt-2.pt-4.border-t-2.border-black>div:nth-child(3) form,
+#numbers-tab>div:nth-child(1)>div:nth-child(3) form {
+    display: flex;
+    align-items: flex-end;
+    min-width: 100% !important;
+    justify-content: space-between;
+}
+
+#forwarding_numbers_info,
+#twilio_numbers_info {
+    display: inline-block;
+    width: fit-content;
+}
+
+#forwarding_numbers_paginate,
+div#twilio_numbers_paginate {
+    display: inline-flex;
+    float: right;
+    gap: 20px;
+    font-size: 16px;
+}
+
+#forwarding_numbers_paginate span,
+div#twilio_numbers_paginate span {
+    display: flex;
+    gap: 15px;
+    font-size: 14px;
+}
+
+#forwarding_numbers_paginate span a,
+div#twilio_numbers_paginate span a {
+    cursor: pointer !important;
+    border-bottom: .1mm solid;
+}
+
+#forwarding_numbers_paginate span a.paginate_button.current,
+div#twilio_numbers_paginate span a.paginate_button.current {
+    border-bottom: 0.6mm solid !important;
+    font-weight: 500;
+}

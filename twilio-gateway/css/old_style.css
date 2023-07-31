@@ -1,0 +1,27 @@
+.green {
+    color: green
+}
+
+
+/* ? tg == Twilio Gateway */
+
+/* styling of tg_tables */
+#tg_Tabs_setting table.tg_tables th,
+#tg_Tabs_setting table.tg_tables td {
+    border: 0.1mm solid;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+#dialer-form-div select#tg_twilio_numbers {
+    min-width: 100%;
+    background: #c0cbe4;
+    padding: 4px 10px;
+}
+
+#dialer-form-div input.text-xl.w-11\/12 {
+    background: transparent;
+    padding: 4px 12px;
+    border: none;
+    border-bottom: 2px dashed #75829f;
+}
